@@ -1,0 +1,114 @@
+body{
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  background-image:url(image/abstract-lines-dark-4k-mg-1360x768.jpg);
+  background-size:cover;
+  backrground-repeat: no-repeat;
+  background-position:center;
+  color:white;
+}
+nav {
+  background-color: rgb(15, 16, 15);
+  text-align:center;
+  align-items: center;
+  height: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav,.nav-links{
+  margin: 0;
+  display: flex;
+  font-size: medium;
+  gap: 5rem;
+  justify-content: space-around;
+  list-style: none;
+}
+nav a{
+  color: rgb(61, 59, 59);
+  text-decoration: double;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav a:hover{
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: rgb(61, 71, 161);
+  text-underline-offset: 0.3rem;
+}
+header{
+  font-family: "Exile", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding: 40px;
+  max-width: 10000px;
+  background: rgb(42, 43, 42);
+  margin-top: 20px;
+  border-radius: 60px;
+  box-shadow: 0 5px 10px rgb(67, 104, 163);
+}
+
+form{
+display: flexbox;
+flex-direction: column-reverse;
+gap: 15px;
+font-size:medium;
+font-weight: bold;
+padding: 20px;
+margin: 10px;
+}
+
+input,textarea{
+  padding: 10px;
+  width:fit-content;
+  font-size:small;
+  text-align:left;
+  border-radius: 10px;
+}
+
+#contactInstruction{
+  padding: 10px;
+}
+#aboutMe{
+ text-align: center; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.skillList{
+  padding: 10px;
+  list-style: none;
+  font-size: medium;
+
+}
+
+.photos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.photos img{
+  width: 300px;
+  height: auto;
+  border:6px solid #121111;
+  border-radius: 30px;
+  box-shadow: 0 5px 10px rgb(67, 104, 163);
+}
+
+.me img{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit:cover;
+  box-shadow: 0 5px 10px rgb(67, 104, 163);
+  display: block;
+  margin: 20px auto;
