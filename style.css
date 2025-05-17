@@ -43,7 +43,7 @@ header{
   font-weight: 400;
   font-style: normal;
   padding: 40px;
-  max-width: 10000px;
+  width: 100%;
   background: rgb(42, 43, 42);
   margin-top: 0px;
   border-radius: 0px;
