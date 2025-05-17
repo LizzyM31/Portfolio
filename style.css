@@ -10,15 +10,12 @@ body{
   color:white;
 }
 nav {
-  background-color: rgb(15, 16, 15);
   text-align:center;
   align-items: center;
   height: fit-content;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 100%;
 }
-
 nav,.nav-links{
   margin: 0;
   display: flex;
@@ -119,7 +116,6 @@ html{
 }
 footer{
    width: 100%;
-  background: rgb(42, 43, 42);
   margin-top: 0px;
   border-radius: 0px;
 }
