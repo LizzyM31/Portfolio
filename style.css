@@ -1,13 +1,11 @@
 body{
-  font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-family: "Tuffy", sans-serif;
+  font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
   background-image:url(image/abstract-lines-dark-4k-mg-1360x768.jpg);
   background-size:cover;
-  backrground-repeat: no-repeat;
   background-position:center;
   color:white;
 }
@@ -41,14 +39,14 @@ nav a:hover{
   text-underline-offset: 0.3rem;
 }
 header{
-  font-family: "Exile", system-ui;
+   font-family: "Codystar", sans-serif;
   font-weight: 400;
   font-style: normal;
   padding: 40px;
   max-width: 10000px;
   background: rgb(42, 43, 42);
-  margin-top: 20px;
-  border-radius: 60px;
+  margin-top: 0px;
+  border-radius: 0px;
   box-shadow: 0 5px 10px rgb(67, 104, 163);
 }
 
@@ -56,10 +54,11 @@ form{
 display: flexbox;
 flex-direction: column-reverse;
 gap: 15px;
-font-size:medium;
+font-size:large;
 font-weight: bold;
 padding: 20px;
 margin: 10px;
+text-align: center;
 }
 
 input,textarea{
@@ -81,10 +80,11 @@ html{
   scroll-behavior: smooth;
 }
 
-.skillList{
+#skillList{
   padding: 10px;
   list-style: none;
   font-size: medium;
+  text-align: center;
 
 }
 
@@ -98,10 +98,13 @@ html{
 
 .photos img{
   width: 300px;
-  height: auto;
+  height: 300px;
   border:6px solid #121111;
-  border-radius: 30px;
+  border-radius: 50%;
+  object-fit:cover;
   box-shadow: 0 5px 10px rgb(67, 104, 163);
+  display: block;
+  margin: 20px auto;
 }
 
 .me img{
@@ -112,3 +115,11 @@ html{
   box-shadow: 0 5px 10px rgb(67, 104, 163);
   display: block;
   margin: 20px auto;
+}
+footer{
+   max-width: 10000px;
+  background: rgb(42, 43, 42);
+  margin-top: 0px;
+  border-radius: 0px;
+}
+
