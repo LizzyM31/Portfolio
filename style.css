@@ -16,6 +16,7 @@ nav {
   height: fit-content;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 100%;
 }
 
 nav,.nav-links{
@@ -117,7 +118,7 @@ html{
   margin: 20px auto;
 }
 footer{
-   max-width: 10000px;
+   width: 100%;
   background: rgb(42, 43, 42);
   margin-top: 0px;
   border-radius: 0px;
